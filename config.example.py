@@ -9,7 +9,7 @@
 # 2. 按 F12 打开开发者工具
 # 3. 刷新页面，找到任意请求
 # 4. 复制 Request Headers 中的 Cookie 字段
-COOKIE = "csrf_session_id=YOUR_CSRF_SESSION_ID; _tea_utm_cache_2608=YOUR_TEA_UTM; __tea_cookie_tokens_2608=YOUR_TEA_COOKIE; passport_csrf_token=YOUR_TOKEN; passport_csrf_token_default=YOUR_TOKEN_DEFAULT; n_mh=YOUR_N_MH; passport_auth_status=YOUR_AUTH_STATUS; passport_auth_status_ss=YOUR_AUTH_STATUS_SS; sid_guard=YOUR_SID_GUARD; uid_tt=YOUR_UID_TT; uid_tt_ss=YOUR_UID_TT_SS; sid_tt=YOUR_SID_TT; sessionid=YOUR_SESSION_ID; sessionid_ss=YOUR_SESSION_ID_SS; session_tlb_tag=YOUR_TAG; is_staff_user=false; sid_ucp_v1=YOUR_SID_UCP; ssid_ucp_v1=YOUR_SSID_UCP; _tea_utm_cache_576092=YOUR_TEA_UTM_57609"
+COOKIE = ""
 
 # 请求参数（一般不需要修改）
 AID = "2608"
