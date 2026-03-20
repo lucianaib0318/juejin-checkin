@@ -39,6 +39,7 @@ cp config.example.py config.py
 
 ```python
 # Cookie 获取方法：
+# 点击任意类型为fetch的网络请求
 # 1. 打开 https://juejin.cn/ 并登录到签到页面
 # 2. 按 F12 打开开发者工具
 # 3. 刷新页面，找到任意请求
@@ -53,6 +54,7 @@ COOKIE = "你的完整 Cookie 字符串"
 # msToken  获取后需要 url解码（其余直接获取）
 # 解密网址1:https://www.toolhelper.cn/EncodeDecode/Url
 # 解密网址2:https://www.bejson.com/enc/urlencode/index.html#google%20vignette
+# 在左侧的搜索框 输入：get_cur_point 回车 ，点击任意接口找msToken, 其他接口也可以。 要多尝试几个值。可能一个会失败
 
 MS_TOKEN = "你的 msToken"
 UUID = "你的 UUID"
