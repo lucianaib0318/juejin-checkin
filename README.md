@@ -39,7 +39,7 @@ cp config.example.py config.py
 
 ```python
 # Cookie 获取方法：
-# 1. 打开 https://juejin.cn/ 并登录
+# 1. 打开 https://juejin.cn/ 并登录到签到页面
 # 2. 按 F12 打开开发者工具
 # 3. 刷新页面，找到任意请求
 # 4. 复制 Request Headers 中的 Cookie 字段
@@ -50,8 +50,12 @@ COOKIE = "你的完整 Cookie 字符串"
 # 在开发者工具的 Network 标签中，找到 growth_api/v1/ 开头的请求
 # 从 Query String Parameters 中复制对应值
 
-UUID = "你的 UUID"
+# msToken  获取后需要 url解码（其余直接获取）
+# 解密网址1:https://www.toolhelper.cn/EncodeDecode/Url
+# 解密网址2:https://www.bejson.com/enc/urlencode/index.html#google%20vignette
+
 MS_TOKEN = "你的 msToken"
+UUID = "你的 UUID"
 A_BOGUS = "你的 a_bogus"
 ```
 
